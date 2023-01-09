@@ -1,0 +1,33 @@
+<html>
+<head>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+           crossorigin=""/>
+
+  <link rel="stylesheet" href="plugins/leaflet-slider/leaflet-slider.css"/>
+  <link rel="stylesheet" href="plugins/leaflet-control-credits.css" />
+  <link rel="stylesheet" href="mapit.css" />
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin=""></script>
+
+  <script src="plugins/leaflet-slider/leaflet-slider.js"> </script>
+  <script type="text/javascript" src="plugins/leaflet-control-credits.js"></script>
+
+  <script src="coverage.js"> </script>
+  <script src="regions.js"> </script>
+  <script src="geojson/gcp_coverage.js"> </script>
+  <script src="geojson/aws_coverage.js"> </script>
+  <script src="geojson/azure_coverage.js"> </script>
+  <script src="geojson/gcp_dcs.js"> </script>
+  <script src="geojson/aws_dcs.js"> </script>
+  <script src="geojson/azure_dcs.js"> </script>
+
+  </head>
+<body>
+ <div id="map" class="leaflet-container leaflet-touch leaflet-retina"></div>
+
+  <script src="mapit.js"> </script>
+</body>
+</html>

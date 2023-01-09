@@ -1,0 +1,8 @@
+mtrpacket
+psycopg[binary]
+aiohttp
+requests
+geopy
+geoip2
+ipinfo
+types-geoip2

@@ -1,0 +1,7 @@
+psycopg[binary]
+alphashape
+matplotlib
+pandas
+geopandas
+cartopy
+

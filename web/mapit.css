@@ -1,0 +1,39 @@
+#map,
+body,
+html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+  background-color: rgb(255 255 255 / 80%);
+}
+.leaflet-control-layers {
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+.legend {
+  line-height: 19px;
+  color: #555;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.info {
+  padding: 6px 8px;
+  background: white;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}

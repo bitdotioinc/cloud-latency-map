@@ -1,0 +1,27 @@
+{
+"Targets": [
+
+  {
+      "Id": "_name",
+      "Arn": "cluster_arn",
+      "RoleArn": "event_bridge_role_arn",
+      "EcsParameters": {
+        "TaskDefinitionArn": "task_definition_arn",
+        "TaskCount": _task_count,
+        "LaunchType": "FARGATE",
+        "NetworkConfiguration": {
+          "awsvpcConfiguration": {
+            "Subnets": ["subnet_1", "subnet_2"],
+            "SecurityGroups": ["security_group"],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "EnableECSManagedTags": true,
+        "EnableExecuteCommand": false
+      },
+      "RetryPolicy": {
+        "MaximumRetryAttempts": 0
+      }
+    }
+]
+}
