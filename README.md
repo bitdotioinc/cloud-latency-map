@@ -6,7 +6,7 @@ expected latency to a datacenter from anywhere in the world.
 You can see this at https://bit.io/latency
 
 
-There's a blog post on this as well - 
+There's a blog post on this as well - https://innerjoin.bit.io/exploring-cloud-datacenter-latency-e6245278e71b
 ## Running
 
 The web site, which is static, and you can literally open the
